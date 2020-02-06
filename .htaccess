@@ -1,0 +1,38 @@
+RewriteEngine On
+SetEnv CI_ENV development
+SetEnv SECRET_KEY 0<!I$URJO[HVZVg
+######### redirect www to non-www #########
+#
+#RewriteCond %{HTTPS} off
+#RewriteCond %{HTTP_HOST} !^www\. [NC]
+#RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+#RewriteCond %{HTTPS} on
+#RewriteCond %{HTTP_HOST} !^www\. [NC]
+#RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
+#
+######### redirect www to non-www #########
+
+
+######### redirect to www #########
+#
+#RewriteCond %{HTTP_HOST} !=""
+#RewriteCond %{HTTP_HOST} !^www\. [NC]
+#RewriteCond %{HTTPS}s ^on(s)|
+#RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+#
+######## redirect to www #########
+
+
+######### for codeigniter #########
+#
+RewriteBase /pixx/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+#
+######### for codeigniter #########
+
+<Files "index.php">
+AcceptPathInfo On
+</Files>

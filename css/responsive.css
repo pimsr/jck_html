@@ -1,0 +1,714 @@
+@media only screen and (min-width: 1600px) {}
+
+@media (min-width: 576px) {}
+
+@media only screen and (max-width: 1400px) {}
+
+@media only screen and (max-width: 1250px) and (min-width: 992px) {
+	body,
+	html {
+		font-size: 20px;
+	}
+	.navbar-brand img {
+		width: 125px;
+	}
+	.head-search {
+		max-width: 50px;
+		font-size: 0.8rem;
+	}
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding-right: 8px;
+		padding-left: 8px;
+		font-size: 0.9rem;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.project-item:hover .overlay-black,
+	.project-item:hover .project-caption,
+	.project-item:hover .project-caption-rotate,
+	.project-item:hover:before,
+	.project-item a {
+		opacity: 1;
+	}
+	.h2,
+	h2 {
+		font-size: 1.5rem;
+	}
+	.news-wrapper .news-item {
+		padding: 20px 0;
+	}
+	.news-wrapper .news-item:hover {
+		background-color: transparent;
+	}
+	.news-wrapper .news-item .btn-vio {
+		opacity: 1;
+	}
+	.grid-sizer,
+	.grid-item {
+		width: 32%;
+	}
+	.img-plan {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.fam-item{
+		padding: 50px 0
+	}
+	.title-f {
+		position: absolute;
+		padding: 15px 0;
+		top: -55px;
+		width: 100%;
+		font-size: 1.4rem;
+	}
+	.navbar-light .navbar-nav .nav-link {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	#about-info .before {
+		max-height: 102%;
+		top: 30%;
+
+	}
+	#about-finance .before {
+		max-height: 160%;
+		top: 22%;
+	}
+	.navbar-nav {
+		margin-left: 0;
+	}
+	.navbar-light .navbar-toggler,
+	.navbar-toggler:focus,
+	.navbar-toggler:hover {
+		color: rgb(255, 255, 255);
+		-webkit-appearance: none;
+		outline: none !important;
+		border-color: transparent;
+	}
+	.navbar {
+		padding: 15px;
+		/* background-color: #632340 !IMPORTANT; */
+	}
+	.title.title-border h3:after {
+		content: "";
+		background-image: url(../images/title-bg.png);
+		background-size: contain;
+	}
+	.home-slider .carousel-caption {
+		padding: 10px 70px 10px 35px;
+		width: 80%;
+	}
+	.home-slider .pagingInfo {
+		right: 3%;
+	}
+	.pagingInfo {
+		padding: 10px 30px 25px 30px;
+		font-size: 0.8rem;
+	}
+	.project-caption h4 {
+		font-size: 0.9rem;
+	}
+	.past-project {
+		padding-right: 120px;
+	}
+	.home-news,
+	.home-privilage {
+		padding: 30px !important;
+	}
+	.title-lg h4 {
+		font-size: 2.0rem;
+	}
+	.menu-toggle {
+		display: none !important;
+	}
+	.menu .navbar-nav .nav-link {
+		padding: 5px 0;
+	}
+	.head-search:focus {
+		position: relative;
+		width: 270px;
+	}
+	#about-info .a-desc::before {
+		left: -30px;
+		width: 20px;
+	}
+	.a-desc {
+		font-size: 0.9rem;
+	}
+
+	.form-service-contact {
+		padding: 0;
+	}
+	.current-project .page2 {
+		left: -13px;
+	}
+	.plan-type {
+		margin-top: 50px;
+	}
+	.condo-page .main-content {
+		padding: 0 30px;
+	}
+	.job-apply {
+		margin-top: 30px;
+	}
+
+	.home-privilage-detail .meta1{
+		    text-align: center;
+		    margin-top: 30px !important;
+	}
+	.rent-right{ padding: 30px 0 ;}
+	.concept-text .title {
+		font-size: 1.5rem;
+		line-height: 1.5rem;
+	}
+	.nav-project nav {
+			padding: 0 15px;
+	}
+	.nav-project nav{
+		height: auto;
+	}
+
+	.nav-project .p-share {
+		display: none;
+	}
+	.nav-project .p-register {
+		margin: 13px 10px;
+		float: left;
+	}
+	.info-img .info-caption h6 {
+		font-size: 1rem;
+		line-height: 1.1rem;
+	}
+	.condo-info{
+		padding: 30px 0 !important;
+	}
+	.info-img {margin-top: 30px;}
+
+	.overlay-per {
+		width: 60%;
+		left: 17%;
+	}
+}
+
+@media (max-width: 767px) {
+
+		.slick-slide iframe {
+			height: 400px;
+		}
+
+	 .text-side {
+		display: none;
+	}
+	.home-img {
+		height: 400px;
+	}
+
+	.home-list .box{
+		    background-repeat: no-repeat;
+		    background-size: cover;
+		    width: 100% !important;
+		    height: 400px;
+		    left: auto;
+		    top: auto;
+		    transform: none;
+		    position: relative !important;
+		    border: 10px solid #fff;
+		    background-position: 50%;
+	}
+	
+	.box-item .box .box-img {
+
+		max-width: none;
+		width: 100%;
+	}
+	.grid-sizer,
+	.grid-item {
+		width: 30%;
+	}
+	.img-plan img {
+		width: 100%;
+	}
+	.location-bottom a {
+		font-size: 1rem;
+		width: 100%;
+		display: block;
+		text-align: left;
+		margin-bottom: 10px;
+	}
+
+	.location-bottom .main-content {
+		padding-bottom: 0 !important;
+	}
+	.progress-right{
+		margin-top: 50px;
+	}
+
+	.condo-progress{
+		padding-top: 30px !important;
+	}
+
+	.progress-left .pagingInfo {
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.location-bottom{
+		position: relative;
+	}
+	.structure-wrapper{
+		margin-top: 0px !important;
+		padding-bottom: 30px !important;
+	}
+	.structure-wrapper .pt-5,
+	.content-promotion,
+	.images-wrapper .pt-5 {
+		padding-top: 30px !important;
+	}
+	.images-wrapper.pb-5 {
+		padding-bottom: 30px !important;
+	}
+	
+	.condo-page .pr-0 {
+		padding-right: 15px !important;
+	}
+	.desc-right.ml-3{
+		margin-left: 0 !important;
+	}
+	.menu-plan {
+		width: 100%;
+		position: relative;
+		z-index: 9;
+		left: 0;
+		margin-bottom: 15px;
+	}
+	.job-detail-page .title-page {
+		padding-bottom: 0 !important;
+	}
+	.job-detail-page .job-title:before {
+		bottom: 35px;
+	}
+	.home-slider .carousel-caption {
+		padding: 10px 70px 5px 20px;
+		width: 80%;
+	}
+	.home-slider .carousel-caption h1 {
+		font-size: 1.4rem;
+		line-height: 1.2rem;
+	}
+	.home-slider .carousel-caption h2 {
+		font-size: 0.8rem;
+		font-family: 'DB Heavent';
+	}
+	.pagingInfo {
+		padding: 10px 30px 25px 30px;
+		font-size: 0.8rem;
+	}
+	.past-project .project-item {
+		margin-bottom: 30px;
+	}
+	.past-project .project-wrapper {
+		max-height: none;
+	}
+	.home-news .before {
+		display: none;
+	}
+	.home-news .news-list {
+		margin-top: 30px !important;
+	}
+	.home-privilage .col-md-9 {
+		-webkit-box-ordinal-group: 3;
+		-ms-flex-order: 2;
+		order: 2;
+	}
+	.privilage-wrapper {
+		margin-top: 30px;
+	}
+	.linkto {
+		margin-top: 1.5rem !important;
+	}
+	.past-project .project-item a {
+		opacity: 1;
+	}
+	.past-project .project-item:hover {
+		margin-top: 0;
+	}
+	.past-project .linkto {
+		margin-left: 10px;
+	}
+	.link-item h3 {
+		font-size: 0.9rem;
+	}
+	.past-project .before {
+		right: 25px;
+	}
+	.past-project {
+		padding-right: 80px;
+	}
+	.all-project.active {
+		padding: 30px;
+	}
+	#about-info .row>.col-md-6:first-child,
+	#about-finance .row>.col-md-6:first-child {
+		-webkit-box-ordinal-group: 3;
+		-ms-flex-order: 2;
+		order: 2;
+	}
+	#about-info .section-a,
+	#about-finance .section-a {
+		margin-top: 40px
+	}
+	#about-info .img-bg::before,
+	#about-finance .img-bg::before {
+		left: -30px;
+		top: 20px;
+		box-shadow: 40px 5px 25px #00000014;
+	}
+	.main-content {
+		padding: 0 30px;
+		padding-bottom: 30px !important;
+	}
+	#about-info .section-a .title,
+	#about-finance .section-a .title {
+		margin-left: 0;
+		font-size: 1.2rem;
+		padding: 5px 15px;
+	}
+	#about-info .a-desc,
+	#about-finance .a-desc {
+		padding-left: 45px;
+		padding-right: 0;
+	}
+	#about-info .a-desc::before,
+	#about-finance .a-desc::before {
+		left: 0px;
+		width: 20px;
+	}
+	.about-info .side-right,
+	.award .side-right {
+		right: -80px;
+	}
+	#about-vision .d-block {
+		width: 100%;
+	}
+	#about-vision .carousel-caption {
+		position: relative;
+		left: 0;
+		top: 0;
+	}
+	#about-vision .section-a .title {
+		margin-left: 0;
+	}
+	#about-vision .pagingInfo {
+		bottom: -10px;
+		left: 50%;
+		right: auto;
+		transform: translateX(-50%);
+		top: auto;
+	}
+	#about-vision {
+		margin-bottom: 30px;
+		padding-top: 0 !important;
+	}
+	#about-team {
+		padding-top: 30px !important;
+	}
+	.slick-slide:hover .manager-item {
+		margin-top: 0;
+	}
+	.card-flip,
+	.front,
+	.back {
+		margin-bottom: 30px;
+	}
+	#about-team .side-left {
+		left: -63px;
+	}
+	.slider-manager {
+		padding: 0 30px;
+	}
+	.front {
+		height: auto !important;
+	}
+	#about-award .carousel-caption {
+		position: relative;
+		left: 0;
+		top: 0;
+		right: 0;
+	}
+	#about-award .section-a .title {
+		margin-left: 0;
+	}
+	.award-tabs .nav-tabs {
+		margin-bottom: 0;
+	}
+	#about-award {
+		padding-top: 30px !important;
+	}
+	.news-top .news-list {
+		left: 0;
+		width: 100%;
+	}
+	.priv-1,
+	.priv-2 {
+		width: 100%;
+	}
+	.privilage-page .privilage-wrapper {
+		margin-top: 0;
+	}
+	.privilage-page .home-privilage {
+		padding-top: 0 !important;
+	}
+	.news-top .news-desc .meta>span:last-child {
+		display: block;
+	}
+	.map-info {
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+	.job-list {
+		margin-left: 30px;
+	}
+	.title-page {
+		padding-top: 30px !important;
+		padding-bottom: 30px !important;
+		margin-bottom: 0;
+	}
+	.banner .caption {
+		width: 100%;
+	}
+	.home-list .box-item:nth-child(odd) .caption {
+		position: relative;
+		transform: translateY(0%);
+		width: 80%;
+		left: 0;
+			top: 41%;
+	}
+	.home-list .box-item:nth-child(even) .caption {
+		left: 0;
+		right: 0;
+	}
+	.box-item .caption-inner h3 {
+		font-size: 1.1rem;
+		line-height: 1;
+	}
+	.promotion-text {
+		width: 95%;
+		padding: 15px;
+	}
+	.promotion-text h4 .title {
+		font-size: 1rem;
+	}
+	.sidebar-nav.active .submenu .nav-link {
+		font-size: 0.8rem;
+		    margin-bottom: 30px;
+	}
+	.promotion-text .share-link {
+		display: block;
+		width: 100%;
+		text-align: right;
+		margin: 31px 0 10px 0;
+		font-size: 1rem;
+	}
+	.promotion-text .share-link img {
+		margin-right: 0;
+		width: 20px;
+	}
+	.pro-interest {
+		padding-top: 30px !important;
+	}
+
+	.p-top{ margin-top: 30px !important;}
+	.desc-img {
+		padding: 20px;
+	}
+	.overlay-per {
+		display: none;
+	}
+	.txt {
+		width: 100%;
+	}
+	.txt h5 {
+		font-size: 1.2rem;
+	}
+	.txt h6 {
+		font-size: 0.6rem;
+	}
+	.txt p {
+		font-size: 1rem;
+	}
+	.about-page .before,
+	.about-page .text-side {
+		display: none
+	}
+	.about-page .title-border:before {
+		width: 30px;
+		top: 61px;
+	}
+	#about-vision .a-desc,
+	#about-award .a-desc {
+		padding-left: 45px;
+	}
+	#about-award .title-border {
+		margin-left: 0;
+	}
+	.title-f {
+		left: 50;
+	}
+
+}
+
+@media (max-width: 576px) {
+	.grid-sizer,
+	.grid-item {
+		width: 45%;
+	}
+	.tab-plan .nav-item {
+		width: 100%;
+		margin-bottom: 10px;
+		margin-left: 0 !important;
+	}
+	.carousel-caption {
+		top: 17%;
+	}
+	.carousel-caption h1 {
+		font-size: 0.5rem;
+	}
+	.carousel-caption h2 {
+		font-size: 0.3rem;
+	}
+	.carousel-caption a {
+		margin-top: 5px;
+		font-size: 0.3rem;
+		padding: 5px;
+	}
+	.slide-custom .layer1,
+	.slide-custom .layer2,
+	.slide-custom .layer3,
+	.slide-custom .layer4,
+	.slide-custom .layer5,
+	.slide-custom .layer7 {
+		-webkit-transform: skew(-28deg, 0deg);
+		-moz-transform: skew(-28deg, 0deg);
+		-o-transform: skew(-28deg, 0deg);
+	}
+	.slide-custom .layer8:after,
+	.slide-custom .layer6:after {
+		display: none;
+	}
+	.h3,
+	h3 {
+		font-size: 1.5rem;
+	}
+	.past-project {
+		position: relative;
+		padding-top: 30px !important;
+		padding-bottom: 30px !important;
+	}
+	.current-project {
+		padding-top: 0px;
+		padding-bottom: 30px !important;
+	}
+	.home-news,
+	.home-privilage {
+		padding: 0 15px;
+	}
+	.priv-1,
+	.priv-2 {
+		width: 100%;
+	}
+	.before {
+		width: 10px !important;
+	}
+	.news-desc {
+		font-size: 0.8rem;
+	}
+	.wrapper.click-link {
+		padding-top: 30px !important;
+		padding-bottom: 30px !important;
+	}
+	.link-item a {
+		padding-top: 30px;
+	}
+	.head-search:focus {
+		width: 150px;
+	}
+	.past-project {
+		padding-right: 70px;
+	}
+	.condo-page .top-page {
+		padding: 0 30px;
+		font-size: 0.8rem;
+	}
+	.manager-item .card-title {
+		font-size: 0.9rem;
+	}
+	.manager-item .back blockquote {
+		font-size: 0.8rem;
+	}
+	.offer-group img {
+		width: 40px;
+	}
+	.offer-group .media .img {
+		width: 83px;
+		text-align: left;
+	}
+	.offer-group {
+		font-size: 0.8rem;
+	}
+	.banner .caption h2 {
+		padding: 5px 15px;
+	}
+	.past-project .before {
+		top: -15px;
+	}
+	.plan-type {
+		padding: 30px 15px;
+		font-size: 0.8rem
+	}
+	.plan-type img {
+		width: 16px;
+	}
+	.promotion-page .award-tabs .nav-tabs .nav-link {
+		font-size: 1rem;
+		padding: 0 18px;
+		margin-bottom: 15px;
+		text-align: left;
+	}
+
+	.promotion-page .award-tabs .nav-tabs li {
+		display: inline-block !important;
+		width: 49%;
+	}
+}
+
+@media (max-width: 480px) {
+	.plan-type {
+		font-size: 0.7rem
+	}
+	.head-search:focus {
+		width: 100px;
+	}
+	.h3,
+	h3 {
+		font-size: 1.4rem;
+	}
+	.past-project {
+		padding-right: 70px;
+	}
+	.slider-current {
+		padding: 0 30px;
+	}
+}
+
+@media (max-width: 320px) {
+	.card-flip,
+	.front,
+	.back {
+		height: 300px;
+	}
+}
+
+@media only screen and (max-width: 375px) and (min-width: 414px) {}
